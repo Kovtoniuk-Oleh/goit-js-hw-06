@@ -24,7 +24,7 @@ class StringBuilder {
   }
 }
 
-// Перевірка:
+// Перевірка згідно ДЗ:
 const builder = new StringBuilder(".");
 console.log(builder.getValue()); // "."
 builder.padStart("^");
